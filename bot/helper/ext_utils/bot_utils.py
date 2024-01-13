@@ -41,8 +41,8 @@ PAGE_NO = 1
 STATUS_LIMIT = 4
 
 class MirrorStatus:
-    STATUS_UPLOADING = "Uploading"
-    STATUS_DOWNLOADING = "Downloading"
+    STATUS_UPLOADING = "💥ᴜᴘʟᴏᴀᴅɪɴɢ👽"
+    STATUS_DOWNLOADING = "😘Dᴏᴡɴʟᴏᴀᴅɪɴɢ💀"
     STATUS_CLONING = "Cloning"
     STATUS_QUEUEDL = "DL queued"
     STATUS_QUEUEUP = "UL queued"
@@ -157,7 +157,7 @@ def source(self):
 
 
 def get_readable_message():
-    msg = '<b>Powered by Aeon</b>\n\n'
+    msg = '<b>Powered by 𝙼𝙸𝙺𝙰𝚂𝙰⚡</b>\n\n'
     button = None
     tasks = len(download_dict)
     currentTime = get_readable_time(time() - botStartTime)
